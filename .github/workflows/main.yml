@@ -6,16 +6,16 @@
 
 
 
-jobs:
-   build:
-     runs-on: ubunto-latest
+ jobs:
+  build:
+    runs-on: ubunto-latest
      
      
-     steps:
-       - name: 'testing github action'
-         run: pwd 
-       - name: 'testing printing'
-         run: echo mohamed
+    steps:
+      - name: 'testing github action'
+        run: pwd 
+      - name: 'testing printing'
+        run: echo mohamed
 
 
 
